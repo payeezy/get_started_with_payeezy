@@ -33,6 +33,7 @@ We provide a free testing environment to test your app in the SANDBOX region. To
 The Merchant token and JS_Security_key are available from the "Merchants" page in your developer account. These values are unique for each merchant. For testing, use the sandbox merchant token (Acme Sock) available in the "Merchants page".
 The TA_TOKEN is "NOIW" for the sandbox merchant. For live processing, the TA_TOKEN will be available from [Payeezy Gateway terminal] (https://globalgatewaye4.firstdata.com/terminal).
 The API key and API secret are created by you and are available in the "APIs" page.
+The CSR or public key are created by you and are available in the "CERTS" page.
 
 Select one of the Payeezy integration methods available from [Integrations page] (https://developer.payeezy.com/select-your-integration-method)
 
