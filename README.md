@@ -53,8 +53,9 @@ You will be certified after submitting the CERTIFICATION form.
 
 # Add Merchant(s)
 Once your certification is complete, developer portal will automatically redirect to “Add Merchant” page. Click on "Live" and then click on "Add a merchant". 
-* If you are adding a merchant who already has a merchant account with First Data, select "Add your existing merchant account" and follow the instructions on the screen. 
+* If you are adding a merchant who already has a merchant account with First Data, select "Add your existing merchant account" and follow the instructions on the screen. In order for this to work, the First Data merchant account must be enabled for Payeezy API. If you are not sure what this is, check with the merchant service provider.
 * If the merchant does not have a First Data merchant account and needs to apply for one, select "Sign up for a merchant account" and follow the instructions.
+
 If for any reason, you are unable to add your merchant account, email payeezyboarding@firstdata.com with the Merchant ID (or storeID), DBA name and developer account email address. We will add the merchant account to your developer account manually within 2 business days and send you a notification. 
 
 # GO LIVE!
