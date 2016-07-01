@@ -10,7 +10,7 @@ And go LIVE!
 
 # LITE Registration
 Sign up for a free developer account with LITE Registration. All you need is your First name, Last name and a valid email address. Navigate to developer portal https://developer.payeezy.com/ from your browser and click on CREATE ACCOUNT.
-
+c
 Note: Portal registration requires a valid e-mail address. Once registered, your email address cannot be changed in future. All e-mails from the system will be sent to this registered email address. The e-mail address will not be made public and will only be used if you wish to receive notifications by e-mail. After you provide registration information an email is sent to you with further instructions to activate your account.
 
 # CREATE AN API
@@ -23,14 +23,15 @@ Think of this as a unique app name that is used to identify your application. Th
 
 # BUILD AND TEST YOUR INTEGRATION
 We provide a free testing environment to test your app in the SANDBOX region. To integrate and test your application all you need is 
-* Merchant token (token)
+* Merchant token
 * API Key
 * API Secret
 * JS_Security_Key (Only required for when using the tokenization API)
 * TA_TOKEN (Only required For US domiciled merchants when using the tokenization API)
 * CSR or public key (only required for mobile wallet integration)
 
-The Merchant token and JS_Security_key are available from the "Merchants" page in your developer account. These values are unique for each merchant. For testing, use the sandbox merchant token (Acme Sock) available in the "Merchants page".
+The Merchant token and JS_Security_key are available from the "Merchants" page in your developer account. These values are unique for each merchant. For testing, we have made available a First Data owned demo US gateway account called "Acme Sock". You may choose to use this or connect to your own US demo account or non-US demo account by clicking on the "Add a demo account" button. This will give you instructions on how to add your demo account or how to sign up for a demo account. Once you add your demo account, you should see it listed in the Merchants list under "Sandbox" and you should also see the merchant token and js_security_key pertaining to that account. 
+
 The TA_TOKEN is "NOIW" for the sandbox merchant. For live processing, the TA_TOKEN will be available from [Payeezy Gateway terminal] (https://globalgatewaye4.firstdata.com/terminal).
 The API key and API secret are created by you and are available in the "APIs" page.
 The CSR or public key are created by you and are available in the "CERTS" page.
@@ -51,8 +52,8 @@ You will be certified after submitting the CERTIFICATION form.
 
 
 # Add Merchant(s)
-Once your certification is complete, developer portal will automatically redirect to “Add Merchant” page. Use the "Add merchant" form only if the merchant needs to apply for a new merchant account with First Data. If you are adding a merchant who already has a merchant account with First Data, we will need to manually add it. (See instructions here - [Adding existing FD merchants](https://developer.payeezy.com/faqs/current-first-data-merchant-i-want-transact-through-payeezy-apismobile-payments-what-process) )
-
+Once your certification is complete, developer portal will automatically redirect to “Add Merchant” page. Click on "Live" and then click on "Add a merchant". If you are adding a merchant who already has a merchant account with First Data, select "Add your existing merchant account" and follow the instructions on the screen. If the merchant does not have a First Data merchant account and needs to apply for one, select "Sign up for a merchant account" and follow the instructions. 
+If for any reason, you are unable to add your merchant account, email payeezyboarding@firstdata.com with the Merchant ID (or storeID), DBA name and developer account email address. We will add the merchant account to your developer account manually and send you a notification. Use the "Add merchant" form only if the merchant needs to apply for a new merchant account with First Data.
 
 # GO LIVE!
 * Replace Sandbox URL with live environment URL: https://api.payeezy.com/v1/transactions
