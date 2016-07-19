@@ -32,7 +32,7 @@ We provide a free testing environment to test your app in the SANDBOX region. To
 
 The Merchant token and JS_Security_key are available from the "Merchants" page in your developer account. These values are unique for each merchant. For testing, we have made available a First Data owned demo US gateway account called "Acme Sock". You may choose to use this or connect to your own US demo account or non-US demo account by clicking on the "Add a demo account" button. Follow the instructions on how to add your demo account or how to sign up for a demo account. Once you add your demo account, you should see it listed in the Merchants list under "Sandbox" and you should also see the merchant token and js_security_key pertaining to that account. 
 
-The TA_TOKEN is "NOIW" for the sandbox merchant. For live processing, the TA_TOKEN will be available from [Payeezy Gateway terminal] (https://globalgatewaye4.firstdata.com/terminal).
+The TA_TOKEN is "NOIW" if you are using the demo merchant account "Acme Sock". If you using your own demo merchant account, you simply need to add a four character string in the terminal details page in the [Demo Gateway Portal] (https://demo.globalgatewaye4.firstdata.com/terminal). For live processing, the TA_TOKEN will be available from [Payeezy Gateway terminal] (https://globalgatewaye4.firstdata.com/terminal).
 The API key and API secret are created by you and are available in the "APIs" page.
 The CSR or public key are created by you and are available in the "CERTS" page.
 
